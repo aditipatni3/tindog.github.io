@@ -22,7 +22,7 @@ p{
     color: grey;
 }
 .container-fluid{
-    padding: 3% 15%;
+    padding: 3% 15% 9% ;
 }
 body{
     font-family: "Montserrat";
@@ -57,19 +57,20 @@ body{
 
 /* title image */
 .title-img{
-    width: 60%;
+    width:350px;
     transform: rotate(25deg);
     position: absolute;
-    z-index: -1;
+    
+    /* z-index: -1; */
 
 } 
 
 /* sections feature */
 #features{
     background-color: #fff;
-    padding: 7rem ;
+    padding: 7% 15%;
     position: relative;
-    z-index: 1;
+    /* z-index: 1; */
 }
 .feature-box{
     text-align: center;

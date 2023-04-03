@@ -123,3 +123,32 @@ body{
     padding: 20px;
     /* margin: 5px; */
  }
+ @media (max-width:1175px){
+    .title-img{
+        position: static;
+        transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
+ }
+
+ #cta{
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 7% 18%;
+    text-align: center;
+}
+.ctaheading{
+font-family: "Montserrat";
+font-weight: 900;
+}
+
+#footer{
+padding: 3% 18%;
+text-align: center;
+
+}
+.socials{
+    margin: 20px 10px;
+}
